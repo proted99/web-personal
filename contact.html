@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- My Style css-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rubik:wght@300;400&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet" />
+    <title>Web|Personal</title>
+  </head>
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/teddylogo.png" alt="" width="70%" height="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <ul>
+            <li><a class="nav-link" href="index.html">HOME</a></li>
+            <li><a class="nav-link" href="event.html">EVENT</a></li>
+            <li><a class="nav-link" href="gallery.html">GALLERY</a></li>
+            <li><a class="nav-link" href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End Navbar -->
+
+  <!-- ======= Breadcrumbs ======= -->
+  <div class="breadcrumbs" data-aos="fade-in">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
+    </div>
+  </div>
+  <!-- End Breadcrumbs -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div data-aos="fade-up">
+      <iframe
+        style="border: 0; width: 100%; height: 350px"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.651021037634!2d117.52100171470073!3d0.524698299617202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320a3539d37ab0ef%3A0x92490cd7669d32ef!2sJl.%20Pergam%2C%20Tlk.%20Lingga%2C%20Kec.%20Sangatta%20Utara%2C%20Kabupaten%20Kutai%20Timur%2C%20Kalimantan%20Timur%2075683!5e0!3m2!1sid!2sid!4v1649065790568!5m2!1sid!2sid"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+      <div class="row mt-5 mb-4">
+        <div class="col-lg-4">
+          <div class="info">
+            <div class="address">
+              <i class="bi bi-geo-alt"><span class="iconify" data-icon="entypo:location" data-width="30"></span></i>
+              <h4>Location:</h4>
+              <p>Jl. Pergam H.290 GPL Munthe, Sangatta Utara</p>
+            </div>
+
+            <div class="email">
+              <i class="bi bi-envelope"><span class="iconify" data-icon="eva:email-outline" data-width="30"></span></i>
+              <h4>Email:</h4>
+              <p>tyan30399@gmail.com</p>
+            </div>
+
+            <div class="phone">
+              <i class="bi bi-phone"><span class="iconify" data-icon="akar-icons:phone" data-width="30"></span></i>
+              <h4>Call:</h4>
+              <p>+62 8226 4476 198</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>2022</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+          Designed by <a href="#">Teddy Syach Pratama</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="instagram"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+        <a href="#" class="twitter"><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
+        <a href="#" class="facebook"><span class="iconify" data-icon="akar-icons:facebook-fill"></span></a>
+        <a href="#" class="google-plus"><span class="iconify" data-icon="ant-design:google-plus-circle-filled"></span></a>
+        <a href="#" class="linkedin"><span class="iconify" data-icon="akar-icons:linkedin-fill"></span></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
