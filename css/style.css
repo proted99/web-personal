@@ -163,6 +163,12 @@ hr {
   border-width: 7px;
   border-style: dashed;
 }
+@media screen and (max-width: 406px) {
+  #about table td {
+    font-size: 0.7rem !important;
+    text-size-adjust: 1rem;
+  }
+}
 
 #yt {
   min-height: 100px;
@@ -203,6 +209,11 @@ hr {
   font-size: 15px;
   font-weight: 600;
   color: #37423b;
+}
+@media screen and (max-width: 406px) {
+  #counts p {
+    font-size: 0.8rem !important;
+  }
 }
 
 /*--------------------------------------------------------------
