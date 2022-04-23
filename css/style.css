@@ -52,6 +52,14 @@ nav ul li a:hover {
   color: #ffff;
   transition: 0.7s;
 }
+@media screen and (max-width: 762px) {
+  nav ul {
+    padding-left: 0;
+  }
+  nav ul li a {
+    padding: 10px !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hero Section
