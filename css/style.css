@@ -167,6 +167,7 @@ hr {
   margin-bottom: 60px;
 }
 #about img {
+  margin-top: 3rem;
   border: #ff960d;
   border-width: 7px;
   border-style: dashed;
